@@ -1,4 +1,6 @@
-import java.sql.SQLOutput;
+package aufgabenallgemein;
+
+import allgemein.Printer;
 
 public class Main
 {

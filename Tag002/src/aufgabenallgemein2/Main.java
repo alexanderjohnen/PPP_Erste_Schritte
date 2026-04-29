@@ -1,7 +1,5 @@
 package aufgabenallgemein2;
 
-import allgemein.Printer;
-
 public class Main
 {
     static int ip;

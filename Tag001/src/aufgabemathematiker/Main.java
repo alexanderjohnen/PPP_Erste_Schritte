@@ -1,6 +1,6 @@
 package aufgabemathematiker;
 
-import allgemein.Printer;
+import allgemein.PrinterLX;
 
 public class Main
 {
@@ -11,18 +11,18 @@ public class Main
 
         int ergebnis = a + b;
 
-        Printer.lnprint(ergebnis);
+        PrinterLX.lnprint(ergebnis);
 
         ergebnis = a - b;
 
-        Printer.lnprint(ergebnis);
+        PrinterLX.lnprint(ergebnis);
 
         ergebnis = a * b;
 
-        Printer.lnprint(ergebnis);
+        PrinterLX.lnprint(ergebnis);
 
         ergebnis = a / b;
 
-        Printer.lnprint(ergebnis);
+        PrinterLX.lnprint(ergebnis);
     }
 }

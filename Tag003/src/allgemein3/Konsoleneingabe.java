@@ -22,10 +22,9 @@ public class Konsoleneingabe
         System.out.printf("Du bist %d Jahre alt.%n", alter);
 
         // Wenn wir eine Kommazahl eingeben wollen, wandeln wir die Eingabe in ein Double um
+        // Wenn wir wollen, dass wir auch ein Komma statt einen Punkt eingeben können, nutzen wir die replace Methode
         System.out.println("Tippe bitte als nächstes deine Körpergröße in die folgende Zeile ein:");
         name = konsolenEingabe.nextLine();
-
-        // Wenn wir wollen, dass auch ein Komma anstatt einem Punkt eingegeben werden kann, nutzen wir die replace Methode
         String ersetzen = name.replace(",",".");
         double groesse = Double.parseDouble(ersetzen);
         System.out.printf("Du bist angeblich %.2f groß.", groesse);

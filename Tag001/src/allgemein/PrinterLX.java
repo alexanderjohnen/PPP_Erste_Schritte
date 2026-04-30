@@ -1,6 +1,6 @@
 package allgemein;
 
-public class Printer
+public class PrinterLX
 {
         // Die Methode ist static, damit wir kein Objekt von Printer bauen müssen
         // wäre sie nicht static, würden wir z.B. Printer = new Printer() benötigen, um sie zu nutzen

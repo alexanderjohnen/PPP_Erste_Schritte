@@ -1,16 +1,16 @@
 package aufgabenallgemein;
 
-import allgemein.Printer;
+import allgemein.PrinterLX;
 
 public class Main
 {
     static void main()
     {
         System.out.print("Hello");
-        Printer.lnprint("World");
-        Printer.lnprint("{");
-        Printer.tprint("Printer.lnprint(\"Hello\");");
-        Printer.tprint("Printer.lnprint(\"World\");");
-        Printer.lnprint("}");
+        PrinterLX.lnprint("World");
+        PrinterLX.lnprint("{");
+        PrinterLX.tprint("Printer.lnprint(\"Hello\");");
+        PrinterLX.tprint("Printer.lnprint(\"World\");");
+        PrinterLX.lnprint("}");
     }
 }

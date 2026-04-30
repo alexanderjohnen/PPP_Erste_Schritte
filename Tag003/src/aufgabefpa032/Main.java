@@ -6,10 +6,10 @@ public class Main
 {
     static void main()
     {
-        Scanner eingabe = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
 
-        int breiteRechteck = Integer.parseInt(eingabe.nextLine());
-        int hoeheRechteck = Integer.parseInt(eingabe.nextLine());
+        int breiteRechteck = Integer.parseInt(input.nextLine());
+        int hoeheRechteck = Integer.parseInt(input.nextLine());
 
         int flaecheRecheck = breiteRechteck * hoeheRechteck;
 

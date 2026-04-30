@@ -6,16 +6,16 @@ public class Main
 {
     static void main()
     {
-        Scanner eingabe = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
 
         System.out.print("Geben Sie bitte die Grundgebühr ein: ");
-        double grundGebuehr = Double.parseDouble(eingabe.nextLine());
+        double grundGebuehr = Double.parseDouble(input.nextLine());
 
         System.out.print("Geben Sie bitte die Anzahl der gefahrenen Kilometer ein: ");
-        double strecke = Double.parseDouble(eingabe.nextLine());
+        double strecke = Double.parseDouble(input.nextLine());
 
         System.out.print("Geben Sie bitte den Preis pro Kilometer ein: ");
-        double preis = Double.parseDouble(eingabe.nextLine());
+        double preis = Double.parseDouble(input.nextLine());
 
         double rechnung = grundGebuehr + preis * strecke;
 

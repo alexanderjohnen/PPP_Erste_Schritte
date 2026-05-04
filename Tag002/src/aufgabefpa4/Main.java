@@ -9,7 +9,7 @@ public class Main
         double volumen = kantenlaengeKubus * kantenlaengeKubus * kantenlaengeKubus;
 
         System.out.println("********************************************");
-        System.out.println("*      Ergebnisse für Kantenlänge " + kantenlaengeKubus +"     *");
+        System.out.println("*      Ergebnisse für Kantenlänge " + kantenlaengeKubus + "     *");
         System.out.println("********************************************");
         System.out.println();
         System.out.printf("Oberfläche: %.2f%n", oberflaeche);

@@ -6,8 +6,6 @@
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
-    <orderEntry type="module" module-name="Tag001" exported="" />
-    <orderEntry type="module" module-name="Tag002" exported="" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>

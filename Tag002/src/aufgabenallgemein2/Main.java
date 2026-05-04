@@ -16,7 +16,7 @@ public class Main
 
         int a = 1;
 
-        System.out.println(a=a+1); // ist gleich ++a, a wird um eins erhöht und direkt der erhöhte a-Wert ausgegeben;
+        System.out.println(a = a + 1); // ist gleich ++a, a wird um eins erhöht und direkt der erhöhte a-Wert ausgegeben;
         System.out.println(++a); //
     }
 }

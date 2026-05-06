@@ -4,21 +4,21 @@ import static allgmein4.ReadlineLX.*;
 
 // PROGRAMM PrüfungsAuswertung
 //
-// BEGINN
-// AUSGABE "Maximale Punktzahl?"
-// EINGABE "max_punkte"
+// Beginn
+// Ausgabe "Maximale Punktzahl?"
+// Eingabe "max_punkte"
 //
-// AUSGABE "Erreichte Punktzahl?"
-// EINGABE "erreichte_punkte"
+// Ausgabe "Erreichte Punktzahl?"
+// Eingabe "erreichte_punkte"
 //
-// BERECHNE prozent = (erreichte_punkte / max_punkte) * 100
+// Berechne prozent = (erreichte_punkte / max_punkte) * 100
 //
-// WENN erreichte_punkte >= (max_punkte * 0,5)
-// DANN
-//      AUSGABE "Bestanden mit " + prozent + " %"
-// SONST
-//      AUSGABE "Nicht bestanden mit " + prozent + " %"
-// ENDE
+// Wenn erreichte_punkte >= (max_punkte * 0,5)
+// Dann
+//      Ausgabe "Bestanden mit " + prozent + " %"
+// Sonst
+//      Ausgabe "Nicht bestanden mit " + prozent + " %"
+// Ende
 
 public class Main
 {

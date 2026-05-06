@@ -6,6 +6,11 @@ public class ReadlineLX
 {
     private static final Scanner input = new Scanner(System.in);
 
+    public static String inputLX()
+    {
+      return input.nextLine();
+    }
+
     public static int parseIntLX()
     {
         return Integer.parseInt(input.nextLine());

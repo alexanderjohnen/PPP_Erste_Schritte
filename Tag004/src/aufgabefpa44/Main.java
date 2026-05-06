@@ -4,20 +4,20 @@ import java.util.Scanner;
 
 // PROGRAMM MaximumBestimmen
 //
-// BEGINN
-// AUSGABE "Geben Sie bitte die erste Zahl ein:"
-// EINGABE zahl1
+// Beginn
+// Ausgabe "Geben Sie bitte die erste Zahl ein:"
+// Eingabe zahl1
 //
-// AUSGABE "Geben Sie bitte die zweite Zahl ein:"
-// EINGABE zahl2
+// Ausgabe "Geben Sie bitte die zweite Zahl ein:"
+// Eingabe zahl2
 //
-// WAHRHEITSWERT** vergleich = (zahl1 > zahl2)
+// Wahrheitswert vergleich = (zahl1 > zahl2)
 //
-// WENN vergleich GLEICH WAHR DANN
-// AUSGABE "Das Maximum aus " + zahl1 + " und " + zahl2 + " ist " + zahl1
-// SONST
-// AUSGABE "Das Maximum aus " + zahl2 + " und " + zahl1 + " ist " + zahl2
-// ENDE
+// Wenn Vergleich gleich wahr dann
+// Ausgabe "Das Maximum aus " + zahl1 + " und " + zahl2 + " ist " + zahl1
+// Sonst
+// Ausgabe "Das Maximum aus " + zahl2 + " und " + zahl1 + " ist " + zahl2
+// Ende
 
 public class Main
 {

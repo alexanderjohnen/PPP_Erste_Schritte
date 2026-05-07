@@ -1,6 +1,6 @@
-package aufgabe5;
+package _unterricht5;
 
-public class Main
+public class Schleifen
 {
     static void main()
     {

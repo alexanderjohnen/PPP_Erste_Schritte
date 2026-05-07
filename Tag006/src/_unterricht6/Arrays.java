@@ -1,8 +1,6 @@
-package aufgabe6;
+package _unterricht6;
 
-import java.util.Arrays;
-
-public class Main
+public class Arrays
 {
     static void main()
     {
@@ -39,13 +37,13 @@ public class Main
 
         // Das Array ohne Schleife ausgeben:
         // Für die Schnelle und einfache ausgaben von Arrays  können wir Arrays.tostring() benutzen;
-        System.out.println(Arrays.toString(intArray3));
+        System.out.println(java.util.Arrays.toString(intArray3));
 
 
         // Das ganze natürlich auch für andere Datentypen
         double[] dArray = {3.5,1.1,2.3};
         System.out.println("Kontrollausgabe des Double-Arrays:");
-        System.out.println(Arrays.toString(dArray));
+        System.out.println(java.util.Arrays.toString(dArray));
         for(int i = 0; i < dArray.length; i ++){
             System.out.print(dArray[i] + " ");
         }
@@ -54,7 +52,7 @@ public class Main
         // Und einmal mit String :)
         String[] sArray = {"Java","ist toll", ":)"};
         System.out.println("Kontrollausgabe");
-        System.out.println(Arrays.toString(sArray));
+        System.out.println(java.util.Arrays.toString(sArray));
 
 
         // String-Arrays können auch über String.join zu einer Zeichenkette zusammengefügt werden.
@@ -69,7 +67,7 @@ public class Main
         for(int i = 0 ; i< zahlen.length; i++){
             zahlen[i] = i*2;
         }
-        System.out.println(Arrays.toString(zahlen));
+        System.out.println(java.util.Arrays.toString(zahlen));
 
 
         System.out.println("FOR-EACH-SCHLEIFE");

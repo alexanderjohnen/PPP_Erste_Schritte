@@ -36,6 +36,40 @@ class TemperatureRecord
         this.unit = unit;
     }
 
+    public static void findMinAndMaxTemperatur(TemperatureRecord[] records)
+    {
+        TemperatureRecord min = records[0];
+        TemperatureRecord max = records[0];
+
+//        for (int i = 0; i < records.length; i++)
+//        {
+//            TemperatureRecord temp = records[i];
+//
+//            if (temp.getTemperature() <= min.getTemperature())
+//            {
+//                min = temp;
+//            }
+//
+//            if (temp.getTemperature() >= max.getTemperature())
+//            {
+//                max = temp;
+//            }
+
+            for (int i = 1; i < records.length; i++)
+            {
+                if(records[i].getTemperature() < min.getTemperature())
+                {
+                    min = records[i];
+                }
+
+                if(records[i].getTemperature() > max.getTemperature())
+                {
+                    max = records[i];
+                }
+            }
+
+        System.out.println(min.getTemperature() + "\n" + max.getTemperature());
+    }
 }
 
 public class Main
@@ -70,37 +104,21 @@ public class Main
 // Die niedrigste Temperatur war am Donnerstag mit 15.5 Grad Celsius.
 // Die höchste Temperatur war am Montag mit 28.3 Grad Celsius.
 
-    static void main(String[] args)
+    static void main()
     {
+        TemperatureRecord[] records = new TemperatureRecord[7];
 
-//        TemperatureRecord t1 = new TemperatureRecord();
-//        t1.setDay("Monday");
-//        t1.setTemperature(3);
-//        t1.setUnit("C");
-//        TemperatureRecord t2 = new TemperatureRecord();
-//        t2.setDay("Tuesday");
-//        t2.setTemperature(17);
-//        t2.setUnit("C");
-//        TemperatureRecord t3 = new TemperatureRecord();
-//        t3.setDay("Wednesday");
-//        t3.setTemperature(23);
-//        t3.setUnit("C");
-//        TemperatureRecord t4 = new TemperatureRecord();
-//        t4.setDay("Thursday");
-//        t4.setTemperature(12);
-//        t4.setUnit("C");
-//        TemperatureRecord t5 = new TemperatureRecord();
-//        t5.setDay("Friday");
-//        t5.setTemperature(9);
-//        t5.setUnit("C");
-//        TemperatureRecord t6 = new TemperatureRecord();
-//        t6.setDay("Saturday");
-//        t6.setTemperature(6);
-//        t6.setUnit("C");
-//        TemperatureRecord t7 = new TemperatureRecord();
-//        t7.setDay("Sunday");
-//        t7.setTemperature(4);
-//        t7.setUnit("C");
+        String[] days = {"Montag","Dienstag", "Mittwoch","Donnerstag", "Freitag", "Samstag","Sonntag"};
+        double[] temperature = {28.3,27.4,13,15,11.4,32.7,35};
 
+        for(int i = 0 ; i < records. length; i++)
+        {
+            records[i] = new TemperatureRecord();
+            records[i].setDay(days[i]);
+            records[i].setTemperature(temperature[i]);
+            records[i].setUnit("Celsius");
+        }
+
+        TemperatureRecord.findMinAndMaxTemperatur(records);
     }
 }

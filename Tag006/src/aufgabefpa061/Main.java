@@ -1,7 +1,5 @@
 package aufgabefpa061;
 
-import allgmein4.ReadlineLX;
-
 import static allgmein4.ReadlineLX.*;
 
 public class Main
@@ -18,11 +16,11 @@ public class Main
     {
         String[] album = new String[5];
 
-        album[0] = inputLX();
-        album[1] = inputLX();
-        album[2] = inputLX();
-        album[3] = inputLX();
-        album[4] = inputLX();
+        album[0] = scanLX();
+        album[1] = scanLX();
+        album[2] = scanLX();
+        album[3] = scanLX();
+        album[4] = scanLX();
 
         for (int i = 0; i < album.length; i++)
         {

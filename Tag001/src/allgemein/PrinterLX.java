@@ -2,8 +2,7 @@ package allgemein;
 
 public class PrinterLX
 {
-        // Die Methode ist static, damit wir kein Objekt von Printer bauen müssen
-        // wäre sie nicht static, würden wir z.B. Printer = new Printer() benötigen, um sie zu nutzen
+        // static, damit wir kein Objekt z.B. Printer p = new Printer() benötigen, um sie zu nutzen
         public static void lnprint(Object x)
         {
             System.out.print("\n" + x); // Neue Zeile, dann Text

@@ -4,23 +4,23 @@ import java.util.Scanner;
 
 public class ReadlineLX
 {
-    private static final Scanner input = new Scanner(System.in);
+    private static final Scanner scan = new Scanner(System.in);
 
-    public static String inputLX()
+    public static String scanLX()
     {
-      return input.nextLine();
+      return scan.nextLine();
     }
 
     public static int parseIntLX()
     {
-        return Integer.parseInt(input.nextLine());
+        return Integer.parseInt(scan.nextLine());
     }
 
     public static double parseDoubleLX()
     {
-//      String s = input.nextLine();
+//      String s =scan.nextLine();
 //      String r = s.replace(",",".");
 //      return Double.parseDouble(r);
-        return Double.parseDouble(input.nextLine().replace(",","."));
+        return Double.parseDouble(scan.nextLine().replace(",","."));
     }
 }

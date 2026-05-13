@@ -1,7 +1,5 @@
 package aufgabefpa0122;
 
-import static _programm.ScanlineLX.booleanToTextLX;
-
 public class Mantel
 {
     private String material;

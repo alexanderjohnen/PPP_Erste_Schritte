@@ -1,4 +1,4 @@
-package _programm;
+package lx.util;
 
 import java.util.Scanner;
 

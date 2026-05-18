@@ -1,18 +1,18 @@
-package lx.util;
+package LxUtil;
 
 import java.util.Scanner;
 
-public class ScanlineLX
+public class LxScanner
 {
     private static final Scanner scan = new Scanner(System.in);
 
-    public static boolean parseBooleanLX()
+    public static boolean LxParseBoolean()
     {
         String input = scan.nextLine().toLowerCase();
         return input.equals("ja") || input.equals("true") || input.equals("y") || input.equals("yes");
     }
 
-    public static String booleanToTextLX(boolean wert) {
+    public static String LxBooleanToText(boolean wert) {
         if (wert)
         {
             return "Ja";
@@ -23,30 +23,30 @@ public class ScanlineLX
         }
     }
 
-    public static String scanLX()
+    public static String LxScan()
     {
         return scan.nextLine();
     }
 
-    public static String scanLX(String prompt)
+    public static String LxScan(String prompt)
     {
         System.out.print(prompt);
         return scan.nextLine();
     }
 
-    public static int parseIntLX()
+    public static int LxParseInt()
     {
         return Integer.parseInt(scan.nextLine());
     }
 
     //Erwartet eine Aufforderung zur Eingabe für den Benutzer, z.B. "Eingabe: "
-    public static int parseIntLX(String prompt)
+    public static int LxParseInt(String prompt)
     {
         System.out.print(prompt);
-        return parseIntLX();
+        return LxParseInt();
     }
 
-    public static double parseDoubleLX()
+    public static double LxParseDouble()
     {
       //String s =scan.nextLine();
       //String r = s.replace(",",".");
@@ -54,9 +54,9 @@ public class ScanlineLX
         return Double.parseDouble(scan.nextLine().replace(",","."));
     }
 
-    public static double parseDoubleLX(String prompt)
+    public static double LxParseDouble(String prompt)
     {
         System.out.print(prompt);
-        return parseDoubleLX();
+        return LxParseDouble();
     }
 }

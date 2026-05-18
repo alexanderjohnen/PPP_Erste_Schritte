@@ -2,8 +2,6 @@ package aufgabefpa0122;
 
 import java.util.Scanner;
 
-import static lx.util.ScanlineLX.*;
-
 public class Main
 {
     /*

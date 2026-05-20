@@ -1,8 +1,6 @@
 package aufgabefpa0131;
 
-import java.util.Arrays;
-
-import static LxUtil.LxScanner.*;
+import static lxutil.LxScanner.*;
 
 public class Main
 {

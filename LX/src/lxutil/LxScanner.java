@@ -1,4 +1,4 @@
-package LxUtil;
+package lxutil;
 
 import java.util.Scanner;
 

@@ -3,7 +3,7 @@ package aufgabe0141;
 import java.util.Arrays;
 import java.util.Scanner;
 
-import static LxUtil.LxScanner.*;
+import static lxutil.LxScanner.*;
 
 public class Main
 {

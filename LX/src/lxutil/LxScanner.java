@@ -12,12 +12,12 @@ public class LxScanner
         return input.equals("ja") || input.equals("true") || input.equals("y") || input.equals("yes");
     }
 
-    public static String LxBooleanToText(boolean wert) {
+    public static String LxBooleanToText(boolean wert)
+    {
         if (wert)
         {
             return "Ja";
-        }
-        else
+        } else
         {
             return "Nein";
         }
@@ -48,10 +48,10 @@ public class LxScanner
 
     public static double LxParseDouble()
     {
-      //String s =scan.nextLine();
-      //String r = s.replace(",",".");
-      //return Double.parseDouble(r);
-        return Double.parseDouble(scan.nextLine().replace(",","."));
+        //String s =scan.nextLine();
+        //String r = s.replace(",",".");
+        //return Double.parseDouble(r);
+        return Double.parseDouble(scan.nextLine().replace(",", "."));
     }
 
     public static double LxParseDouble(String prompt)
